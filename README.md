@@ -17,3 +17,16 @@ JavaScript supports three Primary, two Composite and two Special data types. Nex
 **Special Data Types**
   1. Null
   2. Undefined
+
+**How to delete particular index element from array**
+
+```javascript
+<script>
+var st = [1,2,3,4,5]
+st.splice(2,1)
+document.write(st)
+
+o/p 1,2,4,5
+</script>
+```
+  
