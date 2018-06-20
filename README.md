@@ -69,4 +69,9 @@ document.write(addToOuter(20))
 o/p : 30
 
 ```
+
+
+**What is Preprocessors of Javascript**
+
+A library or framework etc that compiles to javascript is called preprocessors.
   
