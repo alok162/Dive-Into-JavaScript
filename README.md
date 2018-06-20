@@ -29,4 +29,44 @@ document.write(st)
 o/p 1,2,4,5
 </script>
 ```
+
+
+**closure in Javascript**
+
+Closures are just a function with preserved data. In the below example1 we see that variable x is passed to the function myFunc. And same for example 2 we pass data from outerFunc() to innerFunc().
+
+
+**example1:**
+
+
+```javascript
+<script>
+var x = 10;
+function myFunc() {
+  var y = 5;
+  return x+y
+}
+
+document.write(myFunc())
+</script>
+```
+
+
+**example2:**
+
+```javascript
+<script>
+function outerFunc(outer) {
+   function innerFunc(inner) {
+     return inner + outer
+   }
+   return innerFunc
+}
+var addToOuter = new outerFunc(10)
+document.write(addToOuter(20))
+</script>
+
+o/p : 30
+
+```
   
