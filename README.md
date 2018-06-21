@@ -142,4 +142,30 @@ o/p : 30
 **What is Preprocessors of Javascript**
 
 A library or framework etc that compiles to javascript is called preprocessors.
+
+
+**JavaScript Properties**
+
+
+Properties are the values associated with a JavaScript object.
+
+
+
+**Prototype**
+
+
+JavaScript is a prototype-based language, Like person.first
+**example**
+
+
+```javascript
+function employee(first, last) {
+    this.first = first
+    this.last] = last
+}
+
+var person = new employee("firstname", "lastname")
+
+```
+
   
