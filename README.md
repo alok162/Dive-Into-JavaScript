@@ -147,14 +147,8 @@ A library or framework etc that compiles to javascript is called preprocessors.
 **JavaScript Properties**
 
 
-Properties are the values associated with a JavaScript object.
+Properties are the values associated with a JavaScript object, Like person.first.
 
-
-
-**Prototype**
-
-
-JavaScript is a prototype-based language, Like person.first
 **example**
 
 
@@ -167,5 +161,12 @@ function employee(first, last) {
 var person = new employee("firstname", "lastname")
 
 ```
+
+
+**Prototype**
+
+1. JavaScript is a prototype-based language
+2. All JavaScript objects inherit properties and methods from a prototype.
+
 
   
