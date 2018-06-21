@@ -55,6 +55,50 @@ o/p 1,2,4,5
 ```
 
 
+**Arguments reserved keyword:**
+
+arguments keyword is used to take the unlimited number of parameter from called function and assigned to itself.
+
+**example**
+
+```javascript
+<script>
+function sum() {
+  for (i = 0, l = arguments.length; i < l; i++) {
+    result += arguments[i];
+  }
+  return result;
+}
+document.write(sum(1,2,3));
+</script>
+
+o/p 6
+```
+
+
+**Associative Array in JavaScript**
+
+Associative arrays are dynamic objects we can define in multiple ways:
+
+```javascript
+var arr = { "one": 1, "two": 2, "three": 3 };
+
+document.write(arr["one"])
+
+o/p 1
+```
+
+```javascript
+var arr = new Object()
+arr.name = "alok"
+arr.designation = "full stack"
+document.write(arr.name)
+
+o/p alok
+```
+
+
+
 **closure in Javascript**
 
 Closures are just a function with preserved data. In the below example1 we see that variable x is passed to the function myFunc. And same for example 2 we pass data from outerFunc() to innerFunc().
