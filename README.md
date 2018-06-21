@@ -18,6 +18,30 @@ JavaScript supports three Primary, two Composite and two Special data types. Nex
   1. Null
   2. Undefined
 
+**Comparision operator == and ===**
+
+```javascript
+<script>
+var x = '5'
+document.write(x==5)
+
+o/p : true
+</script>
+```
+
+```javascript
+<script>
+var x = '5'
+document.write(x===5)
+
+o/p : false
+</script>
+```
+
+Because in first example is matching only with the value 5. But in 2nd example it is matching with value first and then it is matching with the data type that is why giving output false for 2nd example.
+
+
+
 **How to delete particular index element from array**
 
 ```javascript
