@@ -183,6 +183,18 @@ x = 5; // Assign 5 to x
 document.write(x)      // Display x in the element
 var x;
 ```
+**Explain function hoisting in JavaScript?**
+
+JavaScript’s default behavior that allows moving declarations to the top is called Hoisting.
+
+e.g:
+``` javascript
+hoisted(); // logs "foo"
+
+function hoisted() {
+  console.log('foo');
+}
+```
 
 **Difference between let and var**
 
