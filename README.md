@@ -169,4 +169,24 @@ var person = new employee("firstname", "lastname")
 2. All JavaScript objects inherit properties and methods from a prototype.
 
 
+**JavaScript Hoisting**
+
+
+Hoisting is JavaScript's standard default behavior of moving declarations to the top.
+
+We can define the variaable or function as mention below but that is not js standard.
+
+In JavaScript, a variable can be declared after it has been used.
+
+In other words; a variable can be used before it has been declared.
+
+``` javascript
+x = 5; // Assign 5 to x
+document.write(x)      // Display x in the element
+var x;
+```
+
+
+
+
   
