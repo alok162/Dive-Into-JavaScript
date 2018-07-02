@@ -210,5 +210,23 @@ Redeclaration: let variables cannot be re-declared while var variable can be re-
 
 
 
+**Event Bubbling**
+
+Bubbling just works like the bubbles, the event gets handled by the innermost element and then propagated to the outer element.
+
+``` html
+<div>
+ <ul>
+
+<li></li>
+
+</ul>
+
+</div>
+```
+From the above example, suppose the click event did occur in the ‘li’ element in bubbling model the event will be handled first by ‘li’ then by ‘ul’ and at last by ‘div’ element.
+
+
+
 
   
