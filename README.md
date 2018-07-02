@@ -175,9 +175,7 @@ var person = new employee("firstname", "lastname")
 Hoisting is JavaScript's standard default behavior of moving declarations to the top.
 
 We can define the variaable or function as mention below but that is not js standard.
-
 In JavaScript, a variable can be declared after it has been used.
-
 In other words; a variable can be used before it has been declared.
 
 ``` javascript
@@ -185,6 +183,18 @@ x = 5; // Assign 5 to x
 document.write(x)      // Display x in the element
 var x;
 ```
+
+**Difference between let and var**
+
+let gives you the privilege to declare variables that are limited in scope to the block; statement of expression, unlike var. var is rather a keyword, which defines a variable globally regardless of block scope.
+
+Global window object:
+
+Even if the let variable is defined as same as var variable globally, the let variable will not be added to the global window object. The similarities are alike when both are used outside the function block.
+
+Block: let variables are usually used when there is a limited use of those variables. Say, in for loops, while loops or inside the scope of if conditions etc. Basically, where ever the scope of the variable has to be limited.
+
+Redeclaration: let variables cannot be re-declared while var variable can be re-declared in the same scope.
 
 
 
